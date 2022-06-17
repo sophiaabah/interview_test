@@ -1,0 +1,162 @@
+.main_box{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 4rem;
+  gap: 2rem;
+}
+
+.nav_bar{
+  justify-content: flex-end;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.profile_pic{
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+}
+
+.display_box {
+  /* margin: 4rem; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+
+
+.credit_card {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color:rgb(194, 135, 170);
+  border-radius: 0.3rem;
+  width: 125%;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card_chip{
+  background-color: transparent;
+
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.payment_options_logos{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  align-self: flex-end;
+
+}
+
+img {
+  width: 6rem;
+  height: 40%;
+}
+
+.img_bar {
+  height: auto;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+  gap: 3.3rem;
+
+
+}
+
+form { 
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+ 
+form > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.input_block {
+ width: 100%;
+}
+
+.input_field {
+  padding: 1.2rem 1rem;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid gainsboro;
+  background-color: whitesmoke;
+  width: 80%;
+}
+
+.radio_input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+form > button {
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+  background-color: rgb(58, 77, 248);
+  padding: 1.5rem 4rem;
+
+}
+
+.price_overview{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.invoice_breakdown{
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.price_values{
+    font-size: 1.2rem;
+    font-weight: 700
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer > button {
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: whitesmoke;
+  background-color: rgb(58, 77, 248);
+  padding: 0rem 4rem;
+}
+
